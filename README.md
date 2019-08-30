@@ -20,7 +20,9 @@ The above python script will return 2 images as object_detection.jpg which will 
 
 ![Cropped image](https://user-images.githubusercontent.com/51110977/64024670-8fb3da00-cb58-11e9-9302-3a00865ce308.jpg)
 
-Apply OCR on trying.jpg obtained from running predict.py and get the license plate characters and digits.
+Apply ocr.py with trying.jpg as argument obtained and get the license plate characters and digits.
+
+![ocr](https://user-images.githubusercontent.com/51110977/64026863-339f8480-cb5d-11e9-9a0b-a182cdd411a9.PNG)
 
  
 
