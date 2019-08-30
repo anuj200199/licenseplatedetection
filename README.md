@@ -14,9 +14,11 @@
 
 python predict.py --image path_to_image --config yolo-obj.cfg --weights yolo-obj_last.weights --classes data/obj.names
  
-  ![predict](https://user-images.githubusercontent.com/51110977/63793551-8e4a9d80-c91d-11e9-9de8-9fb0518f7556.png)
+  ![object-detection](https://user-images.githubusercontent.com/51110977/64024647-81fe5480-cb58-11e9-8f8a-5b211f8155d6.jpg)
 
 The above python script will return 2 images as object_detection.jpg which will be highlight the entire image with the bouding box and try.jpg, the cropped image fetching the license plate from the entire image.
+
+![Cropped image](https://user-images.githubusercontent.com/51110977/64024670-8fb3da00-cb58-11e9-9302-3a00865ce308.jpg)
 
 Apply OCR on try.jpg obtained from running predict.py and get the license plate characters and digits.
 
