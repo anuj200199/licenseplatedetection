@@ -1,4 +1,4 @@
-# license plate detection
+# License Plate Detection
  
  yolov3-tiny_obj.cfg is the architecture of yolov3-tiny.
  
