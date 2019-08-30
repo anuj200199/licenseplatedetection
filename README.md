@@ -133,8 +133,11 @@ GETTING THE CHARACTERS(OCR):
 
 Once we know the value of the coordinated of the bounding box, crop the original image to only consist the license plate instead of the whole image using PIL library. Then use tesseract to generate text from image.
 
+python ocr.py trying.jpg
 
-![Fig. 6.7:  Tesseract on image predict.png](https://user-images.githubusercontent.com/51110977/63793979-7fb0b600-c91e-11e9-8bc9-3173baad2209.PNG)
+![ocr](https://user-images.githubusercontent.com/51110977/64026863-339f8480-cb5d-11e9-9a0b-a182cdd411a9.PNG)
+
+
 
 
 
